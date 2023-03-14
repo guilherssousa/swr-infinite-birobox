@@ -20,8 +20,10 @@ export default function Repository({ repo }: { repo: Repository }) {
         <div className="repo__icon">📦</div>
         <h2 className="repo__name">{repo.full_name}</h2>
         <p className="repo__description">{repo.description}</p>
+
         <div className="repo__info">
           <div>⭐ {repo.stargazers_count}</div>
+
           <div>
             {color && (
               <div
@@ -33,6 +35,7 @@ export default function Repository({ repo }: { repo: Repository }) {
             )}{" "}
             {repo.language}
           </div>
+
           {wasUpdatedRecently && <div>🆕 foi atualizado recentemente</div>}
         </div>
       </div>
