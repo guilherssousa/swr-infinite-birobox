@@ -8,7 +8,7 @@ import { COLORS_URL } from "../lib/constants";
 export default function Repository({ repo }: { repo: Repository }) {
   const { data: colors } = useSWR(COLORS_URL, fetcher);
 
-  const color = colors[repo.language];
+  const color = colors?.[repo.language];
 
   // wasUpdatedRcently is true if the repo was updated in the last 7 days
   const wasUpdatedRecently =
