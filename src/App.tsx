@@ -36,7 +36,10 @@ function App() {
         </h1>
         <p>
           Veja repositórios úteis curtidos pelo{" "}
-          <a href="https://github.com/birobirobiro">Biro no GitHub</a>
+          <a href="https://github.com/birobirobiro">Biro no GitHub</a>.{" "}
+          <a href="https://github.com/guilherssousa/swr-infinite-birobox">
+            Source code
+          </a>
         </p>
       </div>
 
