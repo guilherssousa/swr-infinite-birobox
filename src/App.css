@@ -1,0 +1,76 @@
+#root {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.App {
+  margin-top: 1rem;
+}
+
+.card {
+  margin-top: 1rem;
+}
+
+p {
+  color: #a3a3a3;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.github-link {
+  color: #888;
+}
+
+a:has(.repo) {
+  display: flex;
+}
+
+.repo {
+  margin-bottom: 1.25rem;
+}
+
+.repo__icon {
+  font-size: 1.5rem;
+  padding: 0.25rem 0;
+}
+
+.repo__name {
+  color: #ffffffde;
+}
+
+.repo__info {
+  display: flex;
+  align-items: baseline;
+  column-gap: 1rem;
+  white-space: nowrap;
+  color: #a3a3a3;
+}
+
+.repo__info-topics {
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.repo__language-circle {
+  height: 1.5ch;
+  aspect-ratio: 1;
+  display: inline-block;
+  border-radius: 50%;
+  margin-right: 0.1rem;
+}
+
+.loading {
+  color: #a1a1aa;
+}
+
+.header {
+  text-align: center;
+}
+
+.card button {
+  width: 100%;
+  background-color: #262626;
+}
