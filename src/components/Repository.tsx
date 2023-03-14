@@ -17,26 +17,33 @@ export default function Repository({ repo }: { repo: Repository }) {
   return (
     <a href={repo.html_url} target="_blank">
       <div className="repo">
-        <div className="repo__icon">📦</div>
-        <h2 className="repo__name">{repo.full_name}</h2>
-        <p className="repo__description">{repo.description}</p>
-
-        <div className="repo__info">
-          <div>⭐ {repo.stargazers_count}</div>
-
-          <div>
-            {color && (
-              <div
-                className="repo__language-circle"
-                style={{
-                  backgroundColor: color.color,
-                }}
-              ></div>
-            )}{" "}
-            {repo.language}
+        <div className="repo__container">
+          <div className="repo__title">
+            <div className="repo__icon">📦</div>
+            <h2 className="repo__name">{repo.full_name}</h2>
           </div>
 
-          {wasUpdatedRecently && <div>🆕 foi atualizado recentemente</div>}
+          <p className="repo__description">{repo.description}</p>
+
+          <div className="repo__description__container">
+            <div className="repo__info">
+              <div>⭐ {repo.stargazers_count}</div>
+
+              <div>
+                {color && (
+                  <div
+                    className="repo__language-circle"
+                    style={{
+                      backgroundColor: color.color,
+                    }}
+                  ></div>
+                )}{" "}
+                {repo.language}
+              </div>
+            </div>
+
+            {wasUpdatedRecently && <div>🆕 foi atualizado recentemente</div>}
+          </div>
         </div>
       </div>
     </a>

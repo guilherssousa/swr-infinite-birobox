@@ -23,6 +23,7 @@ p {
 }
 
 .read-the-docs {
+  text-align: center;
   color: #888;
 }
 
@@ -36,15 +37,44 @@ a:has(.repo) {
 
 .repo {
   margin-bottom: 1.25rem;
+  width: 100%;
 }
 
 .repo__icon {
   font-size: 1.5rem;
-  padding: 0.25rem 0;
 }
 
 .repo__name {
   color: #ffffffde;
+}
+
+.repo__container {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  border-radius: 30px;
+  border: 1px solid #3d3d3d;
+  transition: all 0.2s ease-in-out;
+}
+
+.repo__container:hover {
+  border: 1px solid #474646;
+}
+
+.repo__title {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.repo__description__container {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.repo__description__container div:last-child {
+  color: #a3a3a3;
 }
 
 .repo__info {

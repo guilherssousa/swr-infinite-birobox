@@ -36,7 +36,7 @@ function App() {
         <h1>biro³ box</h1>
         <p>
           Veja repositórios úteis curtidos pelo{" "}
-          <a href="https://github.com/birobirobiro">Biro no GitHub</a>.{" "}
+          <a href="https://github.com/birobirobiro">birobirobiro no GitHub</a>.{" "}
           <a href="https://github.com/guilherssousa/swr-infinite-birobox">
             Source code
           </a>
@@ -58,7 +58,7 @@ function App() {
         <a href="https://github.com/guilherssousa" target="_blank">
           Guilherme Sousa
         </a>{" "}
-        com dados de{" "}
+        com dados do{" "}
         <a href="https://github.com/birobirobiro">João Inácio Neto</a>
       </p>
     </main>
