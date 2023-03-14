@@ -4,6 +4,12 @@
   padding: 1rem;
 }
 
+@font-face {
+  font-family: "Neuzeit";
+  src: local("NeuzeitGroteskBold"),
+    url("./font/NeuzeitGroW03Bold.ttf") format("truetype");
+}
+
 .App {
   margin-top: 1rem;
 }
