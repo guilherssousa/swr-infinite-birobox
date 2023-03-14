@@ -2,8 +2,6 @@
 
 Veja a coleção de repositórios curtidos do [Biro³](https://github.com/birobirobiro) e aprenda como usar a [paginação infinita do SWR](https://swr.vercel.app/pt-BR/docs/pagination) com [Preload](https://swr.vercel.app/pt-BR/docs/prefetching.pt-BR#dados-de-p%C3%A1gina-top-level).
 
-## Talvez você não precise de Paginação Inifinita...
-
 ## Rodando o projeto
 
 Faça um clone do repositório e instale as dependências com o [pnpm](https://pnpm.io/). Depois, inicie o servidor de desenvolvimento:
