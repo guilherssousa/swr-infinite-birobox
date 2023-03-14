@@ -6,7 +6,6 @@ import type { Repository } from "./types";
 import Repo from "./components/Repository";
 
 import fetcher from "./lib/fetcher";
-
 import { COLORS_URL, STARRED_API_URL } from "./lib/constants";
 
 import "./App.css";
@@ -33,7 +32,6 @@ function App() {
     <main className="App">
       <div className="header">
         <h1>
-          {" "}
           Biro<sup>3</sup>box
         </h1>
         <p>
