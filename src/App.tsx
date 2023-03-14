@@ -10,6 +10,8 @@ import { COLORS_URL, STARRED_API_URL } from "./lib/constants";
 
 import "./App.css";
 
+import "./font/NeuzeitGroW03Bold.ttf";
+
 preload(COLORS_URL, fetcher);
 
 const getKey = (pageIndex: number, previousPageData: Repository[]) => {
@@ -31,9 +33,7 @@ function App() {
   return (
     <main className="App">
       <div className="header">
-        <h1>
-          Biro<sup>3</sup>box
-        </h1>
+        <h1>biro³ box</h1>
         <p>
           Veja repositórios úteis curtidos pelo{" "}
           <a href="https://github.com/birobirobiro">Biro no GitHub</a>.{" "}

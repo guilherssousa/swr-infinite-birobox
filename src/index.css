@@ -18,6 +18,10 @@ a {
   color: #ffffffde;
 }
 
+h1 {
+  font-family: "Neuzeit";
+}
+
 a:hover h1 {
   color: #c0c0c0;
   cursor: pointer;
@@ -55,9 +59,11 @@ button {
   cursor: pointer;
   transition: border-color 0.25s;
 }
+
 button:hover {
   border-color: #646cff;
 }
+
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
@@ -68,9 +74,11 @@ button:focus-visible {
     color: #213547;
     background-color: #ffffff;
   }
+
   a:hover {
     color: #747bff;
   }
+
   button {
     background-color: #f9f9f9;
   }
