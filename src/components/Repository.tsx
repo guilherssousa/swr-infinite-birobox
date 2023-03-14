@@ -26,7 +26,6 @@ export default function Repository({ repo }: { repo: Repository }) {
           <p className="repo__description">{repo.description}</p>
 
           <div className="repo__description__container">
-
             <div className="repo__info">
               <div>⭐ {repo.stargazers_count}</div>
 
